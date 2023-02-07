@@ -47,16 +47,13 @@
 !
 !     Format statements.
 !
-
-   1000 format(3(2x,f5.1))
+ 1000 format(3(2x,f5.1))
 !
 !     Do the printing job.
 !
       write(*,*)' Printing Matrix'
 !
-      do i = 1,3
-      write(*,1000) matrix(i,1),matrix(i,2),matrix(i,3)
-      endDo
+      ADD CODE HERE
 !
 !
       return
